@@ -1,0 +1,6 @@
+[package]
+name = "mentenaz_ai_twin_acp_zed"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

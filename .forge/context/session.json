@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "updatedAt": 1791267837997,
+  "sessionStarted": 1791267807969,
+  "runner": {
+    "status": "idle",
+    "command": "npm run build",
+    "startedAt": null
+  },
+  "chain": {
+    "activeWorkflowId": null,
+    "running": false,
+    "activeStep": null,
+    "ports": []
+  },
+  "gitStatus": {
+    "branch": "HEAD",
+    "staged": [],
+    "unstaged": [
+      ".forge/context/session.json",
+      ".forge/context/workspace.json",
+      ".gitignore",
+      "Cargo.lock",
+      "Cargo.toml",
+      "src/main.rs"
+    ],
+    "hasUncommittedChanges": true
+  },
+  "lspErrors": [
+    {
+      "file": "h:\\persornal\\mentenaz_next\\mentenaz-next\\forgecommittest002-01\\tsconfig.app.json",
+      "line": 1,
+      "column": 1,
+      "severity": "error",
+      "code": "2688",
+      "message": "Cannot find type definition file for 'vite/client'.\n  The file is in the program because:\n    Entry point of type library 'vite/client' specified in compilerOptions",
+      "source": "ts"
+    }
+  ]
+}
